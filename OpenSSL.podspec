@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.libraries    = "crypto", "ssl"
 
   s.xcconfig = {
-    "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/OpenSSL/include"'
+    "LIBRARY_SEARCH_PATHS" => '"$(PODS_ROOT)/OpenSSL/lib"'
   }
 
 end
