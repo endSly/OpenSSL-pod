@@ -86,8 +86,8 @@
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/endika/Desktop/OpenSSL-pod/bin/iPhoneSimulator7.0-i386.sdk/lib/engines"
-#define OPENSSLDIR "/Users/endika/Desktop/OpenSSL-pod/bin/iPhoneSimulator7.0-i386.sdk"
+#define ENGINESDIR "/Users/endika/Desktop/OpenSSL-pod/bin/iPhoneSimulator7.1-i386.sdk/lib/engines"
+#define OPENSSLDIR "/Users/endika/Desktop/OpenSSL-pod/bin/iPhoneSimulator7.1-i386.sdk"
 #endif
 #endif
 
